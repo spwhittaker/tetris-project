@@ -5,9 +5,15 @@
   display: flex;
   flex-wrap: wrap;
 }
+button {
+  margin: 10px;
+}
+
 .grid div {
   height: 3.5vh;
   width: 3.5vh;
+  box-sizing: border-box;
+  border: 1px darkorchid solid;
 }
 .tetromino {
   background-color: blueviolet;
@@ -24,7 +30,13 @@
 .mini-grid div {
   height: 3.5vh;
   width: 3.5vh;
+  box-sizing: border-box;
+  border: 1px darkorchid solid;
 }
 .container {
   display: flex;
+}
+
+div .no-border {
+  border: none;
 }

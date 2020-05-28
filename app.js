@@ -162,7 +162,7 @@ document.addEventListener("DOMContentLoaded", () => {
     }
   }
 
-  document.addEventListener("keyup", control);
+  document.addEventListener("keydown", control);
 
   const displaySquares = document.querySelectorAll(".mini-grid div");
   const displayWidth = 4;
